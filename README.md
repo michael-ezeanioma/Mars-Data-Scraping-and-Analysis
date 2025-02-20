@@ -4,47 +4,11 @@ This project involves web scraping and data analysis to gather information on Ma
 
 # Project Components
 
-__1. Scrape Titles and Preview Text from Mars News__:
-
-Open the Jupyter Notebook: part_1_mars_news.ipynb.
-
-Use automated browsing with Splinter to visit the Mars News website.
-
-Parse the page with BeautifulSoup to extract news titles and preview text.
-
-Store the extracted data in a list of dictionaries with title and preview keys.
-
-Optionally, export the data to a JSON file for sharing.
+__1. Scrape Titles and Preview Text from Mars News__: Automated browsing with Splinter to visit the Mars News website. The page was parsed with BeautifulSoup to extract news titles and preview text, which were stored in a list of dictionaries with title and preview keys. Additionally, the data was optionally exported to a JSON file for sharing.
 
 __2. Scrape and Analyze Mars Weather Data__:
 
-Open the Jupyter Notebook: part_2_mars_weather.ipynb.
-
-Use automated browsing with Splinter to visit the Mars Temperature Data Site.
-
-Extract the HTML table and parse it using BeautifulSoup.
-
-Convert the scraped data into a Pandas DataFrame with appropriate column headings:
-
-id, terrestrial_date, sol, ls, month, min_temp, pressure.
-
-Convert data types as needed (e.g., datetime, int, float).
-
-Analyze the dataset using Pandas to answer:
-
-How many months exist on Mars?
-
-How many Martian days' worth of data exist?
-
-What are the coldest and warmest months on Mars?
-
-Which months have the lowest and highest atmospheric pressure?
-
-How many terrestrial days exist in a Martian year?
-
-Create data visualizations, including bar charts for temperature and pressure trends.
-
-Export the cleaned DataFrame to a CSV file.
+Scraped Mars temperature data with Splinter and BeautifulSoup, converting it into a Pandas DataFrame. The dataset was analyzed to examine Mars' months, temperature extremes, atmospheric pressure variations, and the length of a Martian year. Visualizations were created for trends, and the cleaned data was exported to a CSV file.
 
 # Files
 
