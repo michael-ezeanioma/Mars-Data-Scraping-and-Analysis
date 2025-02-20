@@ -20,19 +20,9 @@ __mars_weather.csv__: Exported DataFrame containing weather data.
 
 # Key Features
 
-__Web Scraping__: 
+__Web Scraping__: Used Splinter for automated browsing and extracted data using BeautifulSoup and structured it in Python dictionaries and Pandas DataFrames.
 
-Used Splinter for automated browsing.
-
-Extracted data using BeautifulSoup and structured it in Python dictionaries and Pandas DataFrames.
-
-__Data Analysis__:
-
-Analyzed trends in Mars weather using Pandas and Matplotlib.
-
-Identified temperature and atmospheric pressure variations.
-
-Estimated the number of terrestrial days in a Martian year through visual analysis.
+__Data Analysis__:Analyzed trends in Mars weather using Pandas and Matplotlib while identifying temperature and atmospheric pressure variations. Estimated the number of terrestrial days in a Martian year through visual analysis.
 
 # Dependencies
 
