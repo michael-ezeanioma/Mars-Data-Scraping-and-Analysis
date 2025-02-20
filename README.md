@@ -1,6 +1,3 @@
-# marschallange
-Mars Data Scraping and Analysis
-
 # Overview
 
 This project involves web scraping and data analysis to gather information on Mars news and weather patterns. Using Splinter for automated browsing and BeautifulSoup for parsing HTML, the project extracts Mars news headlines and weather data, storing them in structured formats for further analysis.
